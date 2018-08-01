@@ -1,0 +1,74 @@
+{
+    "extension_description": {
+        "message": "Watch your mining progress in the Chrome - deepbit.net, mining.bitcoin.cz, btcguild.com, btcmine.com, bitclockers.com, polmine.pl, simplecoin.us, ozco.in, mtred.com and arsbitcoin.com support"
+    },
+    "extension_action" : {
+        "message": "Check now"
+    },
+    "options_title": {
+        "message": "Bitcoin Mining Monitor Options"
+    }, 
+    "save": {
+        "message": "Save"
+    },
+    "saved": {
+        "message": "Saved"
+    },    
+    "restore_defaults": {
+        "message": "Restore defaults"
+    },
+    "confirmed_reward": {
+        "message": "Reward"
+    },
+    "hashrate": {
+        "message": "Hashrate"
+    },
+    "workers_formatted": {
+        "message": "Workers"
+    },
+    "estimated_reward": {
+        "message": "Estimated"
+    },
+    "send_threshold": {
+        "message": "Threshold"
+    },
+    "unconfirmed_reward": {
+        "message": "Unconfirmed"
+    },
+    "username": {
+        "message": "Username"
+    },
+    "wallet": {
+        "message": "Wallet"
+    },
+    "payout": {
+        "message": "Payout"
+    },
+    "total_bounty": {
+        "message": "Total bounty"
+    },
+    "solved_blocks": {
+        "message": "Solved blocks"
+    },
+    "round_shares": {
+        "message": "Round shares"
+    },
+    "solved_shares": {
+        "message": "Solved shares"
+    },
+    "summary": {
+        "message": "Summary"
+    },
+    "summary_label": {
+        "message": "Show summary"
+    },
+    "tokens_auto": {
+        "message": "Get!"
+    },
+    "tokens_auto_description": {
+        "message": "Get tokens if you are logged in pools:"
+    },
+    "convert_label": {
+        "message": "Exchange summary"
+    }  
+}

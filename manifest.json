@@ -1,0 +1,41 @@
+{
+    "name": "Bitcoin Mining Monitor",
+    "version": "0.5.1",
+    "manifest_version": 2,
+    "description": "__MSG_extension_description__",
+    "icons": { 
+        "16": "img/16.png",
+        "48": "img/48.png",
+        "128": "img/128.png"
+    },
+    "default_locale": "en",  
+    "browser_action": {
+        "default_icon": {
+            "19": "img/19.png",
+            "38": "img/38.png" 
+        },
+        "default_title": "__MSG_extension_action__",
+        "default_popup": "popup.html"
+    },  
+    "background": {
+        "scripts": ["js/btc.js", "js/background.js"]
+    },
+    "options_page": "options.html",
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+    "permissions": [ 
+        "notifications", 
+        "*://deepbit.net/",
+        "*://mining.bitcoin.cz/", 
+        "*://www.btcguild.com/",
+        "*://btcmine.com/",
+        "*://bitclockers.com/",
+        "*://polmine.pl/",
+        "*://simplecoin.us/",    
+        "*://ozco.in/",
+        "*://mtred.com/",
+        "*://arsbitcoin.com/",
+        "*://bitminter.com/",
+        "*://50btc.com/",
+        "http://bitcoincharts.com/"
+    ]
+}
